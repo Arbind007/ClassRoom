@@ -1,0 +1,329 @@
+<html lang="en">
+  <head>
+    <link href="index.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+
+    <title>ClassRoom</title>
+  </head>
+  <body>
+    <!--- Navbar --->
+    <nav class="navbar navbar-expand-sm fixed-top" id="ram">
+      <div class="container my-2">
+        <a href="/" class="navbar-brand text-dark font-weight-bold">
+         ABC
+        </a>
+        <button onClick="parent.location='get.html'" class="btn btn-outline-info ml-auto mx-3">
+         Contact
+         
+        </button>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#collapseNav"
+        >
+          <span class="fas fa-bars text-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
+          <div class="navbar-nav">
+            <a
+            href="/attendace.html"
+            class="nav-item nav-link text-dark font-weight h6 mx-3 my-auto"
+          >
+           Attendance
+          </a>
+            <a
+              href="timetable.html"
+              class="nav-item nav-link text-dark font-weight h6 mx-3 my-auto"
+            >
+              Timetable
+            </a>
+            <a
+              href="#online"
+              class="nav-item nav-link text-dark font-weight h6 mx-3 my-auto"
+            >
+              Online Study Material
+            </a>
+            <a
+              href="#assignment"
+              class="nav-item nav-link text-dark font-weight h6 mx-3 my-auto"
+            >
+              Assignment
+            </a>
+            <a
+              href="#online"
+              class="nav-item nav-link text-dark font-weight h6 mx-3 my-auto"
+            >
+              Announcements
+            </a>
+            
+          </div>
+         
+        </div>
+      </div>
+    </nav>
+    
+    <!--- Title Section --->
+    <div class="container text-center my-5">
+      <div class="row align-items-center my-5 py-5">
+        <div class="col-12 col-md-6">
+          <img
+            class="img-fluid rounded-circle w-40"
+            src="./resources/photo/maths.jpg"
+            alt="arbindlochanmishra"
+            id="ram"
+          />
+        </div>
+        <div class="col-12 col-md-6 pt-5">
+          <div class="font-weight-light" style="font-size: 50px;">
+            Maths Class<span class="text-info"></span>
+          </div>
+
+          <h4 class="font-weight-light">SRMIST KTR(Chennai)</h4>
+        </div>
+      </div>
+    </div>
+    <!--- Announcement Section --->
+    <div class="bg-light w-100" id="online">
+      <div class="container text-center py-5">
+        <h1 class="font-weight-light">
+          <span class="text-info">Important</span> Announcement
+        </h1>
+        <div class="lead">Live announcement made here</div>
+        <div class="d-flex justify-content-around py-3">
+         
+          
+         
+          </div>
+          
+        </div>
+        <ul class="px-5">
+          <li>
+            <h3 >Tomorrow class will begin at 10 mins late!</h3>
+          </li>
+          
+        </ul>
+        
+      </div>
+      
+    </div>
+    <!--- Recomendation --->
+    <div class="container-fluid my-5">
+      <div
+        class="row text-center py-5 d-flex flex-nowrap overflow-auto scrollbar"
+        x
+      >
+        <div class="col-12 col-md-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="card-text">
+                He is a good teacher.
+              </h4>
+              <p class="card-text text-secondary mb-0">Random Guy</p>
+              <p class="card-text text-secondary">
+                Student of ABC
+              </p >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="card-text">
+                He teaches maths very well.
+              </h4>
+              <p class="card-text text-secondary mb-0">Random Guy</p>
+              <p class="card-text text-secondary">
+                Student of ABC
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="card-text">
+                He is a good person.
+              </h4>
+              <p class="card-text text-secondary mb-0">Random Guy</p>
+              <p class="card-text text-secondary">
+               Student of ABC
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="card-text">
+                He clears all the dought!
+              </h4>
+              <p class="card-text text-secondary mb-0">Random Guy</p>
+              <p class="card-text text-secondary">
+                Student of ABC
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Online stack --->
+    <div class="bg-light w-100" id="online">
+      <div class="container text-center py-5">
+        <h1 class="font-weight-light">
+          <span class="text-info">Online</span> Study Material
+        </h1>
+        <div class="lead">You  can refer here to refresh your knowledge</div>
+        <div class="d-flex justify-content-around py-3">
+          <div class="px-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QMq0mrZ1dz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L941re_Qu9A?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!---  section --->
+    <div class="container my-5 text-center">
+      <h1 class="font-weight-light">
+       Links<span class="text-info"> you can refer to</span>
+      </h1>
+      <div class="lead">Quick Reference</div>
+      <h3 class="font-weight-light py-5">
+        <a href="https://mml-book.github.io/book/mml-book.pdf">5th class notes</a>
+      </h3>
+    </div>
+    <!--- Assignment Segment--->
+    <div class="bg-light text-center py-5" id="assignment">
+      <div class="container my-5 text-center">
+        <h1 class="font-weight-light">
+          <span class="text-info">Your</span> Assignment
+        </h1>
+        <div class="lead">Your grade depends on it!</div>
+
+        <div class="row my-5 pt-3">
+          <div class="col-12 col-md-4 my-2">
+            <div class="card shadow">
+              <img
+                class="card-img-top"
+                src="/resources/photo/maths1.jpg"
+                alt="Google IT support"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Assignment 2
+                </h4>
+                <p class="card-text">
+                  Last date is 12 August
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-2">
+            <div class="card shadow">
+              <img
+                class="card-img-top"
+                src="/resources/photo/maths2.jpg"
+                alt="Security in Google Cloud"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Assignment 2
+                </h4>
+                <p class="card-text">
+                  Last date is 12 August
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-2">
+            <div class="card shadow">
+              <img
+                class="card-img-top"
+                src="/resources/photo/maths1.jpg"
+                alt="IBM Cyber Security"
+              />
+              <div class="card-body">
+                <h4 class="card-title">
+                  Assignment 1
+                </h4>
+                <p class="card-text">
+                  Last date is 9 August
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <a href="#" class="text-dark text-right">
+            <h5>
+              See more of Assignment!
+              <i class="fas fa-arrow-circle-right align-middle"></i>
+            </h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+
+    
+ 
+
+   
+
+    <!--- footer section --->
+    <footer>
+      <div class="container-fluid text-center" style="background-color: black;">
+        
+        <div class="text-muted py-3">
+          <p>
+            Copyright © Arbind 2020
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
